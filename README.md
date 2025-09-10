@@ -1,14 +1,7 @@
 # Fieldglass Buyer Company Creation (Exercise)
 
-### INTERNAL
-
-## TABLE OF CONTENTS
-
 - [Fieldglass Buyer Company Creation (Exercise)](#fieldglass-buyer-company-creation-exercise)
-    - [INTERNAL](#internal)
-  - [TABLE OF CONTENTS](#table-of-contents)
-  - [EXERCISE MATERIALS](#exercise-materials)
-    - [Contingent Exercise](#contingent-exercise)
+    - [Required Documents](#required-documents)
     - [Company Configuration Workbook](#company-configuration-workbook)
     - [Contingent User Role Permissions Matrix](#contingent-user-role-permissions-matrix)
     - [Supplier Configuration Workbook](#supplier-configuration-workbook)
@@ -45,9 +38,7 @@
     - [Create a Job Posting Template](#create-a-job-posting-template)
     - [Enable Work Item Messaging](#enable-work-item-messaging)
 
-## EXERCISE MATERIALS
-
-### Contingent Exercise
+### Required Documents
 
 ### [Company Configuration Workbook](https://workzone.one.int.sap/site#workzone-home&/groups/A0pfV6lqLZCf0EBwZSXAFn/documents/t2Vy4ce5TSiPLu1JCJ99F0)
 
@@ -77,34 +68,33 @@ This rubric provides the guidelines for the Hiring Manager Demo to be completed 
 2. In the Client Tools section at the top of the launch page, click **Create Buyer Company**.
 3. Enter the following information about your company:
 
-| Section/Field              | Description/Value                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Company Details**        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| Company Code               | Enter a two- to four-digit alpha-numeric code to identify your company. The company code must be unique and not used by any other company (Buyer or Supplier) in this pre-prod environment.                                                                                                                                                                                                                                                                                                                |
-| Note                       | After you enter values for all the required fields on the page and click**Submit**, you will be notified if your company code is a duplicate. If the company code is a duplicate, you will be required to enter a new, unique company code before you can save your information. To determine if company codes have already been used, click the **View Buyer Company** or **View Supplier Company** link from the main launch page. (Click **Home** at the top of the page to return to the launch page.) |
-| Company Name               | Enter a name for your company.                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Company ID                 | This can be the same as the name.                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| Address 1                  | Enter an address.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| City                       | Enter a city.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| State/Province             | Enter a state if using a US address. This format must be the two-letter state abbreviation. For example, Illinois would be IL.                                                                                                                                                                                                                                                                                                                                                                             |
-| Country                    | Select a country.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| ZIP/Postal Code            | Enter a zip/postal code.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| **Test Company?**          | No                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| **Is Parent Company?**     | No                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| **Contract Source**        | This should be set to**FG**.                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| **Default Person Details** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| First Name                 | Enter your first name as the primary user for the company.                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| Last Name                  | Enter your last name as the primary user for the company.                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| Email                      | Enter your SAP work email address                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| User Name                  | Enter a username that you will use to sign into your test company.                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| **Helpdesk User**          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| First Name                 | Do not change the default name:**Fieldglass**                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| Last Name                  | Do not change the default name:**Administrator**                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| Username                   | Leave the default username. The username is automatically created after you enter a company code. All Helpdesk usernames for all companies should be:`companycode@fg_help` For example: `LSFG@fg_help`                                                                                                                                                                                                                                                                                                     |
-| Password                   | Enter a password. Note: If your company code is not unique, you will be required to re-enter the password after changing your company code.                                                                                                                                                                                                                                                                                                                                                                |
-| Email                      | Do not change the pre-populated email address in this field:`fieldglassadmindefault@sap.com`                                                                                                                                                                                                                                                                                                                                                                                                               |
+   | Section/Field              | Description/Value                                                                                                                                                                                      |
+   | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+   | **Company Details**        |                                                                                                                                                                                                        |
+   | Company Code               | Enter a 2-4 digit alphanumeric code to identify company.                                                                                                                                               |
+   | Company Name               | Enter a name for your company.                                                                                                                                                                         |
+   | Company ID                 | This can be the same as the name.                                                                                                                                                                      |
+   | Address 1                  | Enter an address.                                                                                                                                                                                      |
+   | City                       | Enter a city.                                                                                                                                                                                          |
+   | State/Province             | Enter a state if using a US address. This format must be the two-letter state abbreviation. For example, Illinois would be IL.                                                                         |
+   | Country                    | Select a country.                                                                                                                                                                                      |
+   | ZIP/Postal Code            | Enter a zip/postal code.                                                                                                                                                                               |
+   | **Test Company?**          | No                                                                                                                                                                                                     |
+   | **Is Parent Company?**     | No                                                                                                                                                                                                     |
+   | **Contract Source**        | This should be set to **FG**.                                                                                                                                                                          |
+   | **Default Person Details** |                                                                                                                                                                                                        |
+   | First Name                 | Enter your first name as the primary user for the company.                                                                                                                                             |
+   | Last Name                  | Enter your last name as the primary user for the company.                                                                                                                                              |
+   | Email                      | Enter your SAP work email address                                                                                                                                                                      |
+   | User Name                  | Enter a username that you will use to sign into your test company.                                                                                                                                     |
+   | **Helpdesk User**          |                                                                                                                                                                                                        |
+   | First Name                 | Do not change the default name:**Fieldglass**                                                                                                                                                          |
+   | Last Name                  | Do not change the default name:**Administrator**                                                                                                                                                       |
+   | Username                   | Leave the default username. The username is automatically created after you enter a company code. All Helpdesk usernames for all companies should be:`companycode@fg_help` For example: `LSFG@fg_help` |
+   | Password                   | Enter a password. Note: If your company code is not unique, you will be required to re-enter the password after changing your company code.                                                            |
+   | Email                      | Do not change the pre-populated email address in this field:`fieldglassadmindefault@sap.com`                                                                                                           |
 
-5. When you have entered all the required information, click **Submit** at the top of the page.
+   When you have entered all the required information, click **Submit** at the top of the page.
 
 **WARNING!** The Buyer company configuration must be defined prior to being able to create items in the Buyer company Admin menu. Do not register your Buyer administrator until the company configuration is complete.
 
@@ -205,7 +195,8 @@ Add two cost centers:
 4. Click **Add**.
 5. Repeat steps 2-4 to create **Cost Center 2**.
 
-**Note**: Use your Buyer administrator user as the owner for your new cost centers. After you add additional users, you can change the cost center owner. Any currency enabled for your Buyer company can be associated to a cost center.
+> [!NOTE]
+> Use your Buyer administrator user as the owner for your new cost centers. After you add additional users, you can change the cost center owner. Any currency enabled for your Buyer company can be associated to a cost center.
 
 If you wish, you can add additional cost centers.
 
@@ -246,7 +237,8 @@ If you wish, you can add additional sites.
 | ZIP/Postal Code                                                                                              | 60606                                  | N/A                                    |
 | Country                                                                                                      | United States (USA)                    | United Kingdom (GBR)                   |
 
-**Note**: All sites which are configured with United States as the country require a State/Province and Zip/Postal Code to be entered. Non-US sites do not.
+> [!NOTE]
+> All sites which are configured with United States as the country require a State/Province and Zip/Postal Code to be entered. Non-US sites do not.
 
 ---
 
@@ -449,7 +441,8 @@ Add a rate category:
 4. Click **Add**.
 5. Repeat steps 2-4 for the other rate category.
 
-**Note:** Because rate classifications are not applicable to standard rates, but the field is required, it is suggested that you create a rate classification with a name and code that is the same as your rate type. For example, create a rate classification called “Factor” to be used with all factor type rates or create a rate classification called “Markup” to be assigned to all markup type rates. This exercise has instructions to create a rate type of rate, so the suggestion is to name a classification “Rate” as well
+> [!NOTE]
+> Because rate classifications are not applicable to standard rates, but the field is required, it is suggested that you create a rate classification with a name and code that is the same as your rate type. For example, create a rate classification called “Factor” to be used with all factor type rates or create a rate classification called “Markup” to be assigned to all markup type rates. This exercise has instructions to create a rate type of rate, so the suggestion is to name a classification “Rate” as well
 
 | Field | Rate Category 1 | Rate Category 2 |
 | ----- | --------------- | --------------- |
@@ -517,13 +510,15 @@ Add approval groups from different modules and currencies.
 3. Select **Job Posting** in the **Module** field.
 4. Use the information shown in the **Job Posting Approval Group** screen capture below to enter approval group information.
 
-**Note:** Set the Maximum Approval Amount to 0.00. This will allow the approval group to apply to every amount.
+> [!NOTE]
+> Set the Maximum Approval Amount to 0.00. This will allow the approval group to apply to every amount.
 
 5. Click **Add**.
 6. Repeat steps 2-5 to create additional job posting approval groups with **GBP**, **EUR**, **USD**, and **AUD** selected as the currencies.
 7. Repeat steps 2-6 to create **Work Order**, **Work Order Revision**, and **Time Sheet** approval groups for all currencies.
 
-**Note:** The images of each USD approval group below are from the **Approval Group: Details** page, shown once the approval groups are added. The Create Approval Group page may look different.
+> [!NOTE]
+> The images of each USD approval group below are from the **Approval Group: Details** page, shown once the approval groups are added. The Create Approval Group page may look different.
 
 **After you create your approval groups, you must associate them to your business units. By selecting the **Include All New Business Units?** check box, SAP Fieldglass will automatically associate your approval groups to new business units; however, you must manually associate them to existing business units.**
 
@@ -539,23 +534,22 @@ Add approval groups from different modules and currencies.
 
 **Job Posting Approval Group**
 
-![alt text](image.png)
-
+![alt text](job-posting-approval-1.png)
 **Work Order Approval Group**
 
-![alt text](image-4.png)
+![alt text](work-order-approval1-1.png)
 
 **Work Order Revision Approval Group**
 
-![alt text](image-1.png)
+![alt text](work-revision-approval-2.png)
 
 **Time Sheet Approval Group**
 
-![alt text](image-3.png)
+![alt text](time-sheet-approval-1.png)
 
 **Expense Sheet Approval Group**
 
-![alt text](image-2.png)
+![alt text](expense-sheet-approval-1.png)
 
 ### Create Reason Codes
 
@@ -639,14 +633,14 @@ Invite three Suppliers:
 
 Once you have received the email invitation to register in SAP Fieldglass, follow the instructions in the email and registration pages to electronically sign the Contractor Access Agreement and become a Supplier:
 
+![alt text](supplier-invite-email-1.png)
+
 > [!NOTE]
 > You must be completely signed out of your test environment before clicking the link in the registration email. If you are still signed in, you may see the below invalid URL error. To correct, sign out of the environment and click the link again.
 
 For the purposes of this exercise, on the first screen during the registration process, select **No** for the question, “Do you have an existing Fieldglass account that you would like to link to [Buyer Company]?”
 
-If the “Potential Matches” page appears, do not click **Contact Administrator** for any of the listed companies; click on **Continue to Contractor Access Agreement**.
-
-Once the CAA is signed, you will be taken directly to the Supplier account; the application will confirm that your Supplier account is fully registered, as shown below.
+![alt text](supplier-invite-existing-account-1.png)
 
 ### Configure Supplier Companies
 
@@ -733,7 +727,8 @@ For your test company, create one contingent type. You can add further contingen
 2. Click **New**.
 3. Enter the details for the **Contingent Type** as outlined in the table below.
 
-**Note:** Selections should remain as defaulted unless otherwise noted below.
+> [!NOTE]
+> Selections should remain as defaulted unless otherwise noted below.
 
 | Field                                                                                                                                 | Value                                          |
 | ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
@@ -782,7 +777,8 @@ For your test company, you should create at least one job posting template. You 
 2. Click **New**.
 3. Enter the details as shown below.
 
-**Note:** Selections should remain as defaulted unless otherwise noted below.
+> [!NOTE]
+> Selections should remain as defaulted unless otherwise noted below.
 
 | Section/Field                | Description/Value                                                                       |
 | ---------------------------- | --------------------------------------------------------------------------------------- |
@@ -799,13 +795,16 @@ For your test company, you should create at least one job posting template. You 
 4. Check the box next to the **Recruited** worker pay type, which you configured earlier. Do not mark it as Primary.
 5. Click **Add or remove Rates**. The **Add or Remove Rates on Job Posting Template** dialog box is displayed.
 
-**Note:** Job posting templates can hold rates in different currencies, reducing the need to create separate job posting templates per country.
+![alt text](add-rates-1.png)
 
-6. Click **Filter**.
-7. Select the **ST | Hr | USD** and **OT | Hr | USD** rates you created.
-8. Click **Add Selected**.
-9. Click **Update**.
-10. Select the **Used to Estimate Calculated Spend** checkbox next to the ST rate you just added.
+> [!NOTE]
+> Job posting templates can hold rates in different currencies, reducing the need to create separate job posting templates per country.
+
+1. Click **Filter**.
+2. Select the **ST | Hr | USD** and **OT | Hr | USD** rates you created.
+3. Click **Add Selected**.
+4. Click **Update**.
+5. Select the **Used to Estimate Calculated Spend** checkbox next to the ST rate you just added.
 
 | Section                                                                                   | Selection Rule                                                                                  |     |
 | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | --- |
@@ -830,11 +829,13 @@ For your test company, you should create at least one job posting template. You 
 12. Review your data.
 13. Click **Add**.
 
-**Note:** Update the **Maximum rate to $35.26**.
+> [!NOTE]
+> Update the **Maximum rate to $35.26**.
 
-14. Select **All Suppliers** as your **Distribution List**.
+1.  Select **All Suppliers** as your **Distribution List**.
 
-**Note:** Review your data and click **Add**.
+> [!NOTE]
+> Review your data and click **Add**.
 
 ---
 
