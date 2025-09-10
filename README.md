@@ -644,7 +644,8 @@ Invite three Suppliers:
 
 Once you have received the email invitation to register in SAP Fieldglass, follow the instructions in the email and registration pages to electronically sign the Contractor Access Agreement and become a Supplier:
 
-> [!NOTE]:You must be completely signed out of your test environment before clicking the link in the registration email. If you are still signed in, you may see the below invalid URL error. To correct, >sign out of the environment and click the link again.
+> [!NOTE]
+> You must be completely signed out of your test environment before clicking the link in the registration email. If you are still signed in, you may see the below invalid URL error. To correct, sign out of the environment and click the link again.
 
 For the purposes of this exercise, on the first screen during the registration process, select **No** for the question, “Do you have an existing Fieldglass account that you would like to link to [Buyer Company]?”
 
