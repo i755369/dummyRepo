@@ -5,7 +5,7 @@
 ## TABLE OF CONTENTS
 
 - [Fieldglass Buyer Company Creation (Exercise)](#fieldglass-buyer-company-creation-exercise)
-  - [INTERNAL](#internal)
+    - [INTERNAL](#internal)
   - [TABLE OF CONTENTS](#table-of-contents)
   - [EXERCISE MATERIALS](#exercise-materials)
     - [Contingent Exercise](#contingent-exercise)
@@ -644,7 +644,11 @@ Invite three Suppliers:
 
 Once you have received the email invitation to register in SAP Fieldglass, follow the instructions in the email and registration pages to electronically sign the Contractor Access Agreement and become a Supplier:
 
+:::
+
 **Note:** You must be completely signed out of your test environment before clicking the link in the registration email. If you are still signed in, you may see the below invalid URL error. To correct, sign out of the environment and click the link again.
+
+:::
 
 For the purposes of this exercise, on the first screen during the registration process, select **No** for the question, “Do you have an existing Fieldglass account that you would like to link to [Buyer Company]?”
 
