@@ -5,7 +5,7 @@
 ## TABLE OF CONTENTS
 
 - [Fieldglass Buyer Company Creation (Exercise)](#fieldglass-buyer-company-creation-exercise)
-    - [INTERNAL](#internal)
+  - [INTERNAL](#internal)
   - [TABLE OF CONTENTS](#table-of-contents)
   - [EXERCISE MATERIALS](#exercise-materials)
     - [Contingent Exercise](#contingent-exercise)
@@ -50,25 +50,21 @@
 
 ### Contingent Exercise
 
-- **Create a Company Initial**
-
-  This document will guide you through the initial creation of your test company, including step-by-step instructions for creating the essential Admin menu items. This is the first document you should reference, and will be used throughout the entirety of the initial exercise.
-
-### Company Configuration Workbook
+### [Company Configuration Workbook](https://workzone.one.int.sap/site#workzone-home&/groups/A0pfV6lqLZCf0EBwZSXAFn/documents/t2Vy4ce5TSiPLu1JCJ99F0)
 
 This spreadsheet provides the company-level configuration for the setup of your test company. This configuration reflects the Recommended Solution, and should be followed closely.
 
 After following the steps in the exercise workbook to create the Buyer company shell, you should immediately reference this spreadsheet to complete the company configuration, prior to navigating away from the page.
 
-### Contingent User Role Permissions Matrix
+### [Contingent User Role Permissions Matrix](https://workzone.one.int.sap/site#workzone-home&/groups/A0pfV6lqLZCf0EBwZSXAFn/documents/RwXd0UBZtXMQR8VY6Kaf9r)
 
 These spreadsheets provide the user role permissions for the two user roles created in the initial exercise: Hiring Manager and Program Office.
 
-### Supplier Configuration Workbook
+### [Supplier Configuration Workbook](https://workzone.one.int.sap/site#workzone-home&/groups/A0pfV6lqLZCf0EBwZSXAFn/documents/t2Vy4ce5TSiPLu1JCJ99F0)
 
 This spreadsheet provides the company-level configuration for the setup of your Supplier companies. While Supplier companies are created with a default configuration, we recommend enabling several other options as well.
 
-### Contingent Hiring Manager Demo Rubric
+### [Contingent Hiring Manager Demo Rubric](https://workzone.one.int.sap/site#workzone-home&/groups/A0pfV6lqLZCf0EBwZSXAFn/documents/gwl8z96qbjHljCTh88w0vC/slide_viewer)
 
 This rubric provides the guidelines for the Hiring Manager Demo to be completed for your manager and buddy as an assessment of this exercise.
 
@@ -454,6 +450,8 @@ You will also need to create an activity checklist and associate the activity it
 2. Click **Add**.
 3. Select the **Return Badge** activity item and click **Add**.
 
+---
+
 ### Create Rates and Rate Classifications
 
 One or more rate classifications must be created before creating any type of rate.
@@ -520,6 +518,8 @@ Create an invoice adjustment in addition to the default Site Tax adjustment:
 | Usage:             | Available to Supplier Flag, Include in Actual Spend, Include in Estimated and Committed Spend, Applies to Supplier Amount | Available to Supplier Flag, Include in Actual Spend, Include in Estimated and Committed Spend, Applies to Supplier Amount |
 | Site Override List | Add the site created and assign value to 20%                                                                              | Add the site created and assign value to 20%                                                                              |
 |                    |                                                                                                                           |                                                                                                                           |
+
+---
 
 ### Create Approval Groups
 
@@ -607,47 +607,40 @@ Invite three Suppliers:
 
 **First Supplier Invitation**
 
-| Field                                                                                                                          | Value                                       |
-| ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------- |
-| Non-transactional Supplier                                                                                                     | No                                          |
-| Non-transactional Suppliers are Suppliers who do not access SAP Fieldglass but are tied to profile workers in the application. |                                             |
-| Supplier Name                                                                                                                  | Enter a name for your MSP Supplier company. |
-| Primary Contact Person                                                                                                         | First Name                                  |
-| Enter a first name for the Supplier administrator.                                                                             |                                             |
-| Primary Contact Person                                                                                                         | Last Name                                   |
-| Enter a last name for the Supplier administrator.                                                                              |                                             |
-| Email                                                                                                                          | Enter your email address.                   |
-| MSP Company                                                                                                                    | Yes                                         |
-| Manage Services                                                                                                                | Temp, Services, Profile Worker              |
-| Service Provided                                                                                                               | Temp, Services, Profile Worker              |
-| Register Supplier                                                                                                              | No                                          |
-| through Qualification Process                                                                                                  |                                             |
+| Field                                           | Value                                              |
+| ----------------------------------------------- | -------------------------------------------------- |
+| Non-transactional Supplier                      | No                                                 |
+|                                                 |                                                    |
+| Supplier Name                                   | Enter a name for your Supplier company.            |
+| Primary Contact Person First Name               | Enter a first name for the Supplier administrator. |
+| Primary Contact Person Last Name                | Enter a last name for the Supplier administrator.  |
+| Email                                           | Enter your email address.                          |
+| Service Provided                                | Temp, Services, Profile Worker                     |
+| Register Supplier through Qualification Process | No                                                 |
+| Consolidated Invoice for Contingent             | Do not Use                                         |
+| Consolidated Invoice for Services               | Do not Use                                         |
 
 **Second Supplier Invitation**
 
-| Field                                              | Value                                          |
-| -------------------------------------------------- | ---------------------------------------------- |
-| Non-transactional Supplier                         | No                                             |
-| Supplier Name                                      | Enter a name for your second Supplier company. |
-| Primary Contact Person                             | First Name                                     |
-| Enter a first name for the Supplier administrator. |                                                |
-| Primary Contact Person                             | Last Name                                      |
-| Enter a last name for the Supplier administrator.  |                                                |
-| Email                                              | Enter your email address.                      |
-| Service Provided                                   | Temp, Services, Profile Worker                 |
+| Field                             | Value                                              |
+| --------------------------------- | -------------------------------------------------- |
+| Non-transactional Supplier        | No                                                 |
+| Supplier Name                     | Enter a name for your second Supplier company.     |
+| Primary Contact Person First Name | Enter a first name for the Supplier administrator. |
+| Primary Contact Person Last Name  | Enter a last name for the Supplier administrator.  |
+| Email                             | Enter your email address.                          |
+| Service Provided                  | Temp, Services, Profile Worker                     |
 
 **Third Supplier Invitation**
 
-| Field                                              | Value                                         |
-| -------------------------------------------------- | --------------------------------------------- |
-| Non-transactional Supplier                         | No                                            |
-| Supplier Name                                      | Enter a name for your third Supplier company. |
-| Primary Contact Person                             | First Name                                    |
-| Enter a first name for the Supplier administrator. |                                               |
-| Primary Contact Person                             | Last Name                                     |
-| Enter a last name for the Supplier administrator.  |                                               |
-| Email                                              | Enter your email address.                     |
-| Service Provided                                   | Temp, Services, Profile Worker                |
+| Field                             | Value                                              |
+| --------------------------------- | -------------------------------------------------- |
+| Non-transactional Supplier        | No                                                 |
+| Supplier Name                     | Enter a name for your second Supplier company.     |
+| Primary Contact Person First Name | Enter a first name for the Supplier administrator. |
+| Primary Contact Person Last Name  | Enter a last name for the Supplier administrator.  |
+| Email                             | Enter your email address.                          |
+| Service Provided                  | Temp, Services, Profile Worker                     |
 
 Once you have received the email invitation to register in SAP Fieldglass, follow the instructions in the email and registration pages to electronically sign the Contractor Access Agreement and become a Supplier:
 
