@@ -32,12 +32,11 @@
     - [Create a Task Code](#create-a-task-code)
     - [Create Expense Codes](#create-expense-codes)
     - [Create an Activity Item and Activity Checklist](#create-an-activity-item-and-activity-checklist)
-    - [Create Rates and Rate Classifications](#create-rates-and-rate-classifications)
+    - [Create Rates and Rate Category](#create-rates-and-rate-category)
     - [Create Invoice Adjustments](#create-invoice-adjustments)
     - [Create Approval Groups](#create-approval-groups)
     - [Create Reason Codes](#create-reason-codes)
     - [Create Supplier Invitations](#create-supplier-invitations)
-    - [Configure MSP Fee](#configure-msp-fee)
     - [Configure Supplier Companies](#configure-supplier-companies)
     - [Complete Supplier Setup](#complete-supplier-setup)
     - [Create Distribution Lists](#create-distribution-lists)
@@ -90,15 +89,15 @@ This rubric provides the guidelines for the Hiring Manager Demo to be completed 
 | State/Province             | Enter a state if using a US address. This format must be the two-letter state abbreviation. For example, Illinois would be IL.                                                                                                                                                                                                                                                                                                                                                                             |
 | Country                    | Select a country.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | ZIP/Postal Code            | Enter a zip/postal code.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| **Test Company?**          | Do not change the default value of No. By default, report transforms are not done on test companies, so if you change the default value of No, you are limiting your ability to run reports for your company.                                                                                                                                                                                                                                                                                              |
-| **Is Parent Company?**     | Do not change the default of No. Parent companies are used when Buyers have multiple companies that they would like to separate for transactional purposes but have reporting capability across all entities. Parent companies require additional setup. If you change the default to Yes, this will delay the creation of your test company as you will need to create a new, non-parent company. If a parent company is created, it cannot be changed.                                                   |
+| **Test Company?**          | No                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Is Parent Company?**     | No                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | **Contract Source**        | This should be set to**FG**.                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| **Default Person Details** | The default person section is used to establish the first Buyer user administrator. For your test company, you should make yourself the administrator. After saving your company details, you will receive emails inviting you to register your administrator user account.                                                                                                                                                                                                                                |
+| **Default Person Details** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | First Name                 | Enter your first name as the primary user for the company.                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| Last Name                  | Enter your last name (surname) as the primary user for the company.                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| Email                      | Enter your SAP work email address. You must enter your email address in order to receive the user registration email sent by the system. Do not enter a “dummy” email address.                                                                                                                                                                                                                                                                                                                             |
-| User Name                  | Enter a username that you will use to sign into your test company. You username must be unique across all SAP Fieldglass users in this pre-prod environment. You may want to have your username be: first initial, last name, underscore, company code. For example:`jdoe_TCMX`                                                                                                                                                                                                                            |
-| **Helpdesk User**          | This section is where the SAP Fieldglass Administrator user account is created. It allows SAP Fieldglass to have a user account in each company in order to log into a Buyer or Supplier company. This user account enables SAP Fieldglass to assist with troubleshooting and tracks any actions taken as “SAP Fieldglass” and not as a Buyer or Supplier user.                                                                                                                                            |
+| Last Name                  | Enter your last name as the primary user for the company.                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Email                      | Enter your SAP work email address                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| User Name                  | Enter a username that you will use to sign into your test company.                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Helpdesk User**          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | First Name                 | Do not change the default name:**Fieldglass**                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | Last Name                  | Do not change the default name:**Administrator**                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | Username                   | Leave the default username. The username is automatically created after you enter a company code. All Helpdesk usernames for all companies should be:`companycode@fg_help` For example: `LSFG@fg_help`                                                                                                                                                                                                                                                                                                     |
@@ -123,14 +122,6 @@ You will receive two registration emails with instructions that tell you how to 
 ### Specify Configuration Settings
 
 ### Coordinator/Distributor
-
-**Description**
-
-When a company is created with the company configuration **Does Buyer Have MSP?** enabled, users can be set up to act as a Coordinator or Distributor through their user profiles. Coordinators and Distributors can be associated to business units, Coordinators can be included in approval workflows, and Distributors can be assigned to distribute job postings.
-
-Generally, users in the Program Office or who are Administrators, will be set up as Coordinators or Distributors.
-
-In the next section, you will create business units, and in order to assign a Coordinator or Distributor to the business unit, there must be at least one user who has been set up with that permission. Therefore, you will need to update the profile of your Buyer administrator user before creating new business units. A user cannot enable this flag for their own user account, so you will need to utilize the Fieldglass Administrator account to complete this action.
 
 **Set Up**
 
@@ -286,8 +277,6 @@ You can add additional locations, if desired.
 
 ### Create User Roles
 
-**Set Up**
-
 Add two user roles:
 
 1. From the Admin menu, select **User Role** in the **User** section.
@@ -302,8 +291,6 @@ Add two user roles:
 
 ### Create Users
 
-**Set Up:**
-
 Add two users:
 
 1. From the Admin menu, select **User** in the **User** section.
@@ -312,22 +299,20 @@ Add two users:
 4. Click **Add**.
 5. Repeat steps 2-4 to create User 2.
 
-**Note:** For your test company, create your own user details. Each user must have a unique username. To receive the registration emails for these users, be sure to enter your own email address.
-
-| Field                                            | User 1                                                                                                                                                                          | User 2                                                                                                                                                                          |
-| ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| First Name                                       | Enter a first name.                                                                                                                                                             | Enter a first name.                                                                                                                                                             |
-| Last Name                                        | Enter a last name.                                                                                                                                                              | Enter a last name.                                                                                                                                                              |
-| Username                                         | Enter a unique username. (You may want to use your company code in the username to ensure it is unique: for example,`jdoe_LSFG`)                                                | Enter a unique username. (You may want to use your company code in the username to ensure it is unique: for example,`jsmith_LSFG`)                                              |
-| Display Name                                     | Enter the user’s name as it should be displayed in the application. For example: Last, First.                                                                                   | Enter the user’s name as it should be displayed in the application. For example: Last, First.                                                                                   |
-| Email                                            | Enter your email address.                                                                                                                                                       | Enter your email address.                                                                                                                                                       |
-| Role                                             | Hiring Manager                                                                                                                                                                  | Program Office                                                                                                                                                                  |
-| Primary Business Unit                            | Select one of your business units.                                                                                                                                              | Select one of your business units.                                                                                                                                              |
-| Default Cost Center                              | Select one of your cost centers, if desired. Note: You may need to select the**Unused** radio button above the field before your cost center will display in the drop-down box. | Select one of your cost centers, if desired. Note: You may need to select the**Unused** radio button above the field before your cost center will display in the drop-down box. |
-| Default Site                                     | Select one of your sites, if desired.                                                                                                                                           | Select one of your sites, if desired.                                                                                                                                           |
-| Primary Supervisor                               | Select your Buyer administrator.                                                                                                                                                | Select your Buyer administrator.                                                                                                                                                |
-| Signature Authority                              | 65,000.00 (AUD), 30,000.00 (GBP), 40,000.00 (EUR), 50,000.00 (USD)                                                                                                              | 80,000.00 (AUD), 45,000.00 (GBP), 50,000.00 (EUR), 60,000.00 (USD)                                                                                                              |
-| User Access: Cost Centers, Business Units, Sites | All                                                                                                                                                                             | All                                                                                                                                                                             |
+| Field                                            | User 1                                                                                        | User 2                                                                                        |
+| ------------------------------------------------ | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| First Name                                       | Enter a first name.                                                                           | Enter a first name.                                                                           |
+| Last Name                                        | Enter a last name.                                                                            | Enter a last name.                                                                            |
+| Username                                         | Enter a unique username.                                                                      | Enter a unique username.                                                                      |
+| Display Name                                     | Enter the user’s name as it should be displayed in the application. For example: Last, First. | Enter the user’s name as it should be displayed in the application. For example: Last, First. |
+| Email                                            | Enter your email address.                                                                     | Enter your email address.                                                                     |
+| Role                                             | Hiring Manager                                                                                | Program Office                                                                                |
+| Primary Business Unit                            | Select one of your business units.                                                            | Select one of your business units.                                                            |
+| Default Cost Center                              | Select one of your cost centers                                                               | Select one of your cost centers                                                               |
+| Default Site                                     | Select one of your sites, if desired.                                                         | Select one of your sites, if desired.                                                         |
+| Primary Supervisor                               | Select your Buyer administrator.                                                              | Select your Buyer administrator.                                                              |
+| Signature Authority                              | 65,000.00 (AUD), 30,000.00 (GBP), 40,000.00 (EUR), 50,000.00 (USD)                            | 80,000.00 (AUD), 45,000.00 (GBP), 50,000.00 (EUR), 60,000.00 (USD)                            |
+| User Access: Cost Centers, Business Units, Sites | All                                                                                           | All                                                                                           |
 
 **User-Specific Additional Settings:**
 
@@ -452,24 +437,24 @@ You will also need to create an activity checklist and associate the activity it
 
 ---
 
-### Create Rates and Rate Classifications
+### Create Rates and Rate Category
 
-One or more rate classifications must be created before creating any type of rate.
+One or more rate catgeories must be created before creating any type of rate.
 
-Add a rate classification:
+Add a rate category:
 
-1. From the Admin menu, select **Rate Classification** in the **Rate Structure** section.
+1. From the Admin menu, select **Rate Category** in the **Rate Structure** section.
 2. Click **New**.
-3. Enter the details for **Rate Classification 1**, as outlined in the table below.
+3. Enter the details for **Rate Category 1**, as outlined in the table below.
 4. Click **Add**.
-5. Repeat steps 2-4 for the other rate classification.
+5. Repeat steps 2-4 for the other rate category.
 
-**Note:** Because rate classifications are not applicable to standard rates, but the field is required, it is suggested that you create a rate classification with a name and code that is the same as your rate type. For example, create a rate classification called “Factor” to be used with all factor type rates or create a rate classification called “Markup” to be assigned to all markup type rates. This exercise has instructions to create a rate type of rate, so the suggestion is to name a classification “Rate” as well.
+**Note:** Because rate classifications are not applicable to standard rates, but the field is required, it is suggested that you create a rate classification with a name and code that is the same as your rate type. For example, create a rate classification called “Factor” to be used with all factor type rates or create a rate classification called “Markup” to be assigned to all markup type rates. This exercise has instructions to create a rate type of rate, so the suggestion is to name a classification “Rate” as well
 
-| Field | Rate Classification 1 | Rate Classification 2 |
-| ----- | --------------------- | --------------------- |
-| Code  | Rate Factor           | Rate Factor           |
-| Name  | Rate Factor           | Rate Factor           |
+| Field | Rate Category 1 | Rate Category 2 |
+| ----- | --------------- | --------------- |
+| Code  | Rate Factor     | Rate Factor     |
+| Name  | Rate Factor     | Rate Factor     |
 
 Add a rate:
 
@@ -554,13 +539,23 @@ Add approval groups from different modules and currencies.
 
 **Job Posting Approval Group**
 
+![alt text](image.png)
+
 **Work Order Approval Group**
+
+![alt text](image-4.png)
 
 **Work Order Revision Approval Group**
 
+![alt text](image-1.png)
+
 **Time Sheet Approval Group**
 
+![alt text](image-3.png)
+
 **Expense Sheet Approval Group**
+
+![alt text](image-2.png)
 
 ### Create Reason Codes
 
@@ -653,21 +648,6 @@ If the “Potential Matches” page appears, do not click **Contact Administrato
 
 Once the CAA is signed, you will be taken directly to the Supplier account; the application will confirm that your Supplier account is fully registered, as shown below.
 
----
-
-### Configure MSP Fee
-
-Once you have registered your MSP Supplier, follow these steps to configure the MSP fee percentage:
-
-1. Log in as the MSP Supplier.
-2. From the Admin menu, select **Buyer** in the **Buyer** section.
-3. Click on the **Name** of your Buyer company.
-4. Click **Edit**.
-5. In the **MSP %** field, enter `3.00`.
-6. Click **Update**.
-
----
-
 ### Configure Supplier Companies
 
 Once a Supplier is active in SAP Fieldglass, the Supplier company configuration must be updated.
@@ -709,32 +689,16 @@ When you invited your Suppliers, you specified whether they could engage in Temp
 5. Click **Update**.
 6. Repeat steps 1-5 for your remaining two Suppliers.
 
-| **Section/Field**                   | Accounting                                                                                                                                                                                                                                                                                                                 |
-| ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Consolidated Invoice for Contingent | Select**Created By Buyer** to have this Supplier’s Contingent invoices to be included on a consolidated invoice. If this is selected, once an invoice has been approved it will go into **Pending Consolidation** status.                                                                                                  |
-| Consolidated Invoice for Services   | Select**Created By Buyer** to have this Supplier’s services (SOW) invoices to be included on a consolidated invoice. If this is selected, once an invoice has been approved it will go into **Pending Consolidation** status.                                                                                              |
-| Service Provided                    | Select which services the Supplier can provide.<ul><li>Temp (Job Posting)</li><li>Services (SOW Bid and SOW)</li><li>Profile Worker</li></ul>                                                                                                                                                                              |
-| MSP Service Fee                     | Select**Supplier-funded**, meaning that the MSP Fee is subtracted from the amount paid to the Supplier by the Buyer.                                                                                                                                                                                                       |
-| Supplier can create Profile Workers | Select whether the Supplier can create profile workers, or whether the responsibility for creation of profile workers for this Supplier lies solely with the Buyer.                                                                                                                                                        |
-| Remittance Type (Contingent)        | Select the way in which payments are made to the Supplier for both<ul><li>Contingent</li><li>Services</li></ul>. <ul><li>Direct Pay: Buyer pays the Supplier and the MSP separately.</li><li>Indirect Pay: Buyer pays the MSP the full amount; MSP pays the Supplier the amount from the Buyer less the MSP fee.</li></ul> |
+| **Section/Field**                   | Accounting                     |
+| ----------------------------------- | ------------------------------ |
+| Consolidated Invoice for Contingent | Created By Buyer               |
+| Consolidated Invoice for Services   | Created By Buyer               |
+| Service Provided                    | Temp, Services, Profile Worker |
+| Supplier can create Profile Workers | Yes                            |
 
 ---
 
 ### Create Distribution Lists
-
-**Description**
-
-Distribution lists determine which Suppliers will receive a job posting. When a job posting is distributed, it is sent to the Suppliers on the associated distribution list. Distribution lists can be associated to business units and to specific job posting templates. Often, organizations have multiple distribution lists based on the type of labor provided by the Supplier.
-
-To use the “Auto Distribute” functionality, you must have at least one distribution list and one Supplier set as “Mandatory” or “Preferred” on that list.
-
-**Read more about Supplier Distribution Lists in SAP Help Portal.**
-
-**Example**
-
-A Buyer may have different distribution lists for different types of labor; for instance, a distribution list for Marketing positions may contain different Suppliers or different Supplier tiers than a distribution list for IT positions.
-
-**Set Up**
 
 For your test company, create one distribution list that contains all Suppliers, and name the list “All Suppliers”. You can add more Suppliers and distribution lists at any time.
 
@@ -781,16 +745,6 @@ For your test company, create one contingent type. You can add further contingen
 ---
 
 ### Create Worker Pay Types
-
-**Description**
-
-Rates and markups may differ for the same position, depending on how the worker is sourced or classified. Worker pay types, in conjunction with rate grids, support this requirement.
-
-Rate grids are set on the job posting template, and there can be a separate rate grid for each worker pay type included on the template. The Supplier selects the appropriate worker pay type when submitting a job seeker.
-
-**Example**
-
-The most common examples of worker pay types are **PAYE** (Pay As You Earn) and Limited Company for UK workers, or worker pay types for those that are recruited versus only payrolled.
 
 **Set Up**
 
@@ -840,6 +794,7 @@ For your test company, you should create at least one job posting template. You 
 | **Labor Type**               | Accounting/Finance                                                                      |
 | **Accounting**               |                                                                                         |
 | Estimated Additional Spend   | 5.00%                                                                                   |
+| Distribution List            | All Suppliers                                                                           |
 
 4. Check the box next to the **Recruited** worker pay type, which you configured earlier. Do not mark it as Primary.
 5. Click **Add or remove Rates**. The **Add or Remove Rates on Job Posting Template** dialog box is displayed.
